@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>¡Llegó la botonera!</h1>
+
+  {{#each sonido in model}}
+    {{sonido}}
+  {{else}}
+    <p>No hay sonidos aún...</p>
+  {{/each}}
+
+
+  <button class='boton btn btn-success'>Salto</button>
+
+  {{outlet}}
+
+</div>
